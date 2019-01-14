@@ -7,4 +7,12 @@ public final class Lower extends UDF {
         if (s == null) { return null; }
         return s.toLowerCase();
     }
+
+    public String foo2(String str){
+        if(str == null){
+            return null;
+        }
+
+        return str.toLowerCase();
+    }
 }
